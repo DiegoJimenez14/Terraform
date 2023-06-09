@@ -1,19 +1,19 @@
 # Comandos basicos 
 
-1. #`terraform init`#: Este comando inicializa un nuevo directorio de trabajo de Terraform. Descarga y configura los proveedores y módulos necesarios para tu configuración.
+1. **terraform init**: Este comando inicializa un nuevo directorio de trabajo de Terraform. Descarga y configura los proveedores y módulos necesarios para tu configuración.
 
-2. `terraform plan`: Este comando crea un plan de ejecución de Terraform. Examina la configuración y muestra los cambios que se realizarán en la infraestructura de AWS, como la creación, actualización o eliminación de recursos.
+2. terraform plan: Este comando crea un plan de ejecución de Terraform. Examina la configuración y muestra los cambios que se realizarán en la infraestructura de AWS, como la creación, actualización o eliminación de recursos.
 
-3. `terraform apply`: Este comando aplica los cambios especificados en el plan de Terraform. Crea, actualiza o elimina los recursos necesarios en la infraestructura de AWS para que coincida con la configuración definida.
+3. terraform apply: Este comando aplica los cambios especificados en el plan de Terraform. Crea, actualiza o elimina los recursos necesarios en la infraestructura de AWS para que coincida con la configuración definida.
 
-4. `terraform destroy`: Este comando elimina todos los recursos creados por Terraform en la infraestructura de AWS. Es útil cuando deseas limpiar y eliminar la infraestructura después de finalizar el trabajo.
+4. terraform destroy: Este comando elimina todos los recursos creados por Terraform en la infraestructura de AWS. Es útil cuando deseas limpiar y eliminar la infraestructura después de finalizar el trabajo.
 
-5. `terraform validate`: Este comando verifica la sintaxis y la coherencia de los archivos de configuración de Terraform. Identifica cualquier error o problema antes de realizar cambios en la infraestructura.
+5. terraform validate: Este comando verifica la sintaxis y la coherencia de los archivos de configuración de Terraform. Identifica cualquier error o problema antes de realizar cambios en la infraestructura.
 
-6. `terraform refresh`: Este comando obtiene el estado actual de la infraestructura de AWS y lo almacena en el archivo de estado de Terraform. No realiza ningún cambio, pero actualiza el estado interno de Terraform.
+6. terraform refresh : Este comando obtiene el estado actual de la infraestructura de AWS y lo almacena en el archivo de estado de Terraform. No realiza ningún cambio, pero actualiza el estado interno de Terraform.
 
-7. `terraform output`: Este comando muestra los valores de salida definidos en el archivo de configuración de Terraform. Puedes utilizarlo para obtener información sobre los recursos creados, como direcciones IP, nombres de servidores, etc.
+7. terraform output: Este comando muestra los valores de salida definidos en el archivo de configuración de Terraform. Puedes utilizarlo para obtener información sobre los recursos creados, como direcciones IP, nombres de servidores, etc.
 
-8. `terraform state`: Este comando permite administrar y realizar operaciones en el archivo de estado de Terraform. Puedes listar, mover o eliminar recursos del estado.
+8. terraform state: Este comando permite administrar y realizar operaciones en el archivo de estado de Terraform. Puedes listar, mover o eliminar recursos del estado.
 
 Estos son solo algunos de los comandos básicos más utilizados en Terraform para trabajar con AWS. Terraform ofrece una amplia gama de comandos adicionales y opciones avanzadas para administrar tu infraestructura en la nube. Puedes consultar la documentación oficial de Terraform para obtener más detalles sobre cada comando y sus opciones.
