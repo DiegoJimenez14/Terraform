@@ -1,7 +1,6 @@
 # Comandos basicos 
-Aquí tienes una lista de comandos básicos de Terraform para trabajar con AWS, junto con una breve descripción de cada uno:
 
-1. `terraform init`: Este comando inicializa un nuevo directorio de trabajo de Terraform. Descarga y configura los proveedores y módulos necesarios para tu configuración.
+1. #`terraform init`#: Este comando inicializa un nuevo directorio de trabajo de Terraform. Descarga y configura los proveedores y módulos necesarios para tu configuración.
 
 2. `terraform plan`: Este comando crea un plan de ejecución de Terraform. Examina la configuración y muestra los cambios que se realizarán en la infraestructura de AWS, como la creación, actualización o eliminación de recursos.
 
